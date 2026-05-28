@@ -178,7 +178,7 @@ export default function PanelProgreso() {
           <div className="flex items-center gap-1.5 md:gap-4 shrink-0">
             <Link
               to={isTutorView ? "/dashboard/tutor" : "/dashboard/nino"}
-              className="text-[#6B21A8] font-bold hover:text-[#7C3AED] transition-colors no-underline text-[0.75rem] md:text-[1rem]"
+              className="flex items-center justify-center bg-white border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.75rem] md:text-[0.9rem] px-3 py-1 md:px-4 md:py-1.5 rounded-full"
             >
               ← Volver
             </Link>

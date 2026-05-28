@@ -661,13 +661,13 @@ export default function DesafiosOrtografia() {
             <div className="bg-[#FACC15] px-2.5 md:px-6 py-1 md:py-2 rounded-full flex items-center gap-1">
               <span className="font-['Fredoka_One',cursive] text-[0.85rem] md:text-[1.2rem] text-[#3B0764]">⭐ {score} pts</span>
             </div>
-            <div className="flex items-center gap-1 md:gap-3">
+            <div className="flex items-center gap-1.5 md:gap-3">
               {vista !== "menu" && (
-                <button onClick={() => setVista("menu")} className="text-[#6B21A8] font-bold hover:text-[#7C3AED] text-[0.75rem] md:text-[1rem]">
+                <button onClick={() => setVista("menu")} className="flex items-center justify-center bg-white border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors text-[0.75rem] md:text-[0.9rem] px-2.5 py-1 md:px-4 md:py-1.5 rounded-full">
                   ← Niveles
                 </button>
               )}
-              <Link to="/dashboard/nino" className="text-[#6B21A8] font-bold hover:text-[#7C3AED] no-underline text-[0.75rem] md:text-[1rem] flex items-center gap-1">
+              <Link to="/dashboard/nino" className="flex items-center justify-center bg-white border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.75rem] md:text-[0.9rem] px-2.5 py-1 md:px-4 md:py-1.5 rounded-full gap-1">
                 <span className="hidden sm:inline">🏠</span> Inicio
               </Link>
             </div>
