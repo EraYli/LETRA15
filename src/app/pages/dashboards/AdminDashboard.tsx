@@ -157,21 +157,20 @@ export default function AdminDashboard() {
     <div className="min-h-screen bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
       <DinoLettersBg />
 
-      {/* Header */}
-      <header className="bg-[#3B0764] shadow-[0_2px_12px_rgba(107,33,168,0.10)] px-3 sm:px-4 md:px-8 py-3 md:py-4 relative z-10">
-        <div className="max-w-[1400px] mx-auto flex flex-wrap items-center justify-between gap-y-2 gap-x-2 md:gap-3">
-          <Link to="/" className="flex items-center gap-1.5 md:gap-2 no-underline shrink-0">
-            <span className="text-[1.3rem] md:text-[2rem]">🦕</span>
-            <span className="font-['Fredoka_One',cursive] text-[1.1rem] md:text-[1.5rem] text-white">
+      <header className="bg-[#3B0764] shadow-md px-4 md:px-8 py-3 md:py-4 relative z-10">
+        <div className="max-w-[1400px] mx-auto flex flex-wrap items-center justify-between gap-y-3 gap-x-4 md:gap-6">
+          <Link to="/" className="flex items-center gap-2 no-underline shrink-0">
+            <span className="text-[1.4rem] md:text-[2rem]">🦕</span>
+            <span className="font-['Fredoka_One',cursive] text-[1rem] sm:text-[1.2rem] md:text-[1.5rem] text-white">
               LETRASAURIO <span className="text-[#FACC15]">ADMIN</span>
             </span>
           </Link>
-          <div className="flex items-center gap-2 sm:gap-3 md:gap-4 shrink-0">
+          <div className="flex flex-wrap items-center justify-end gap-3 sm:gap-4 md:gap-6 flex-1 sm:flex-none">
             <div className="text-right text-white">
-              <p className="font-bold text-[0.8rem] sm:text-[0.9rem] md:text-[1rem] leading-tight">Panel Admin 👤</p>
-              <p className="text-[0.7rem] md:text-[0.85rem] opacity-90 font-semibold leading-tight">{user?.name}</p>
+              <p className="font-bold text-[0.75rem] sm:text-[0.9rem] md:text-[1rem] leading-tight">Panel Admin 👤</p>
+              <p className="text-[0.65rem] sm:text-[0.85rem] opacity-90 font-semibold leading-tight">{user?.name}</p>
             </div>
-            <button onClick={handleLogout} className="bg-white/20 border-2 border-white/50 text-white font-bold px-3 md:px-4 py-1 md:py-2 text-[0.75rem] sm:text-[0.85rem] md:text-[1rem] rounded-full hover:bg-white/30 transition-all shrink-0 whitespace-nowrap">
+            <button onClick={handleLogout} className="bg-white/20 border-2 border-white/50 text-white font-bold px-4 md:px-5 py-1.5 md:py-2 text-[0.85rem] md:text-[1rem] rounded-full hover:bg-white/30 transition-all shrink-0 whitespace-nowrap">
               Salir
             </button>
           </div>
