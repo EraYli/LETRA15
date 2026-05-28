@@ -75,22 +75,22 @@ export default function NinoDashboard() {
     <div className="min-h-screen bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
       <DinoLettersBg />
 
-      <header className="bg-white shadow-[0_2px_12px_rgba(107,33,168,0.10)] px-2 sm:px-4 md:px-8 py-2 sm:py-3 md:py-4 relative z-10">
-        <div className="max-w-[1200px] mx-auto flex items-center justify-between gap-1 sm:gap-3">
-          <Link to="/" className="flex items-center gap-0.5 sm:gap-1.5 md:gap-2 no-underline shrink-0">
-            <span className="text-[1.1rem] sm:text-[1.5rem] md:text-[2rem]">🦕</span>
-            <span className="font-['Fredoka_One',cursive] text-[0.85rem] sm:text-[1.2rem] md:text-[1.5rem] text-[#6B21A8] tracking-tighter sm:tracking-normal">
+      <header className="bg-white shadow-[0_2px_12px_rgba(107,33,168,0.10)] px-3 sm:px-4 md:px-8 py-3 md:py-4 relative z-10">
+        <div className="max-w-[1200px] mx-auto flex flex-wrap items-center justify-between gap-y-2 gap-x-2 md:gap-3">
+          <Link to="/" className="flex items-center gap-1.5 md:gap-2 no-underline shrink-0">
+            <span className="text-[1.3rem] md:text-[2rem]">🦕</span>
+            <span className="font-['Fredoka_One',cursive] text-[1.1rem] md:text-[1.5rem] text-[#6B21A8]">
               LETRA<span className="text-[#16A34A]">SAURIO</span>
             </span>
           </Link>
-          <div className="flex items-center gap-1.5 sm:gap-3 md:gap-4 ml-auto shrink-0">
+          <div className="flex items-center gap-2 sm:gap-3 md:gap-4 shrink-0">
             <div className="text-right">
-              <p className="font-bold text-gray-800 text-[0.7rem] sm:text-[0.85rem] md:text-[1rem] leading-tight max-w-[80px] sm:max-w-full truncate">Hola, {user?.name}!</p>
-              <p className="text-[0.6rem] sm:text-[0.7rem] md:text-[0.85rem] text-gray-600 font-semibold leading-tight">Niño</p>
+              <p className="font-bold text-gray-800 text-[0.8rem] sm:text-[0.9rem] md:text-[1rem] leading-tight">Hola, {user?.name}!</p>
+              <p className="text-[0.7rem] md:text-[0.85rem] text-gray-600 font-semibold leading-tight">Niño</p>
             </div>
             <button
               onClick={handleLogout}
-              className="bg-white border sm:border-2 border-[#6B21A8] text-[#6B21A8] font-bold px-1.5 sm:px-3 py-0.5 sm:py-1 md:px-4 md:py-2 text-[0.65rem] sm:text-[0.85rem] md:text-[1rem] rounded-full hover:bg-[#6B21A8] hover:text-white transition-all shrink-0 whitespace-nowrap"
+              className="bg-white border-2 border-[#6B21A8] text-[#6B21A8] font-bold px-3 md:px-4 py-1 md:py-2 text-[0.75rem] sm:text-[0.85rem] md:text-[1rem] rounded-full hover:bg-[#6B21A8] hover:text-white transition-all shrink-0 whitespace-nowrap"
             >
               Salir
             </button>

@@ -158,20 +158,20 @@ export default function AdminDashboard() {
       <DinoLettersBg />
 
       {/* Header */}
-      <header className="bg-[#3B0764] shadow-[0_2px_12px_rgba(107,33,168,0.10)] px-2 sm:px-4 md:px-8 py-2 sm:py-3 md:py-4 relative z-10">
-        <div className="max-w-[1400px] mx-auto flex items-center justify-between gap-1 sm:gap-3">
-          <Link to="/" className="flex items-center gap-0.5 sm:gap-1.5 md:gap-2 no-underline shrink-0">
-            <span className="text-[1.1rem] sm:text-[1.5rem] md:text-[2rem]">🦕</span>
-            <span className="font-['Fredoka_One',cursive] text-[0.7rem] sm:text-[1.1rem] md:text-[1.5rem] text-white tracking-tighter sm:tracking-normal">
-              LETRA<span className="hidden sm:inline">SAURIO</span> <span className="text-[#FACC15]">ADMIN</span>
+      <header className="bg-[#3B0764] shadow-[0_2px_12px_rgba(107,33,168,0.10)] px-3 sm:px-4 md:px-8 py-3 md:py-4 relative z-10">
+        <div className="max-w-[1400px] mx-auto flex flex-wrap items-center justify-between gap-y-2 gap-x-2 md:gap-3">
+          <Link to="/" className="flex items-center gap-1.5 md:gap-2 no-underline shrink-0">
+            <span className="text-[1.3rem] md:text-[2rem]">🦕</span>
+            <span className="font-['Fredoka_One',cursive] text-[1.1rem] md:text-[1.5rem] text-white">
+              LETRASAURIO <span className="text-[#FACC15]">ADMIN</span>
             </span>
           </Link>
-          <div className="flex items-center gap-1.5 sm:gap-3 md:gap-4 ml-auto shrink-0">
+          <div className="flex items-center gap-2 sm:gap-3 md:gap-4 shrink-0">
             <div className="text-right text-white">
-              <p className="font-bold text-[0.7rem] sm:text-[0.85rem] md:text-[1rem] leading-tight max-w-[80px] sm:max-w-full truncate">Panel Admin 👤</p>
-              <p className="text-[0.6rem] sm:text-[0.7rem] md:text-[0.85rem] opacity-90 font-semibold leading-tight">{user?.name}</p>
+              <p className="font-bold text-[0.8rem] sm:text-[0.9rem] md:text-[1rem] leading-tight">Panel Admin 👤</p>
+              <p className="text-[0.7rem] md:text-[0.85rem] opacity-90 font-semibold leading-tight">{user?.name}</p>
             </div>
-            <button onClick={handleLogout} className="bg-white/20 border sm:border-2 border-white/50 text-white font-bold px-1.5 sm:px-3 py-0.5 sm:py-1 md:px-4 md:py-2 text-[0.65rem] sm:text-[0.85rem] md:text-[1rem] rounded-full hover:bg-white/30 transition-all shrink-0 whitespace-nowrap">
+            <button onClick={handleLogout} className="bg-white/20 border-2 border-white/50 text-white font-bold px-3 md:px-4 py-1 md:py-2 text-[0.75rem] sm:text-[0.85rem] md:text-[1rem] rounded-full hover:bg-white/30 transition-all shrink-0 whitespace-nowrap">
               Salir
             </button>
           </div>
