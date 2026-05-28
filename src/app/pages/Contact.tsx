@@ -47,23 +47,23 @@ export default function Contact() {
     <div className="min-h-screen bg-white font-['Nunito',sans-serif]">
       <Header />
 
-      <section className="py-12 md:py-20 px-4 md:px-8 bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
+      <section className="py-8 sm:py-12 md:py-20 px-3 sm:px-4 md:px-8 bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
         <HeroBg />
         <div className="max-w-[1100px] mx-auto text-center relative z-10">
-          <h1 className="font-['Fredoka_One',cursive] text-[2.2rem] md:text-[3rem] text-[#3B0764] mb-4 md:mb-6 leading-tight">
+          <h1 className="font-['Fredoka_One',cursive] text-[1.8rem] sm:text-[2.2rem] md:text-[3rem] text-[#3B0764] mb-3 sm:mb-4 md:mb-6 leading-tight">
             Contáctanos 📧
           </h1>
-          <p className="text-[1rem] md:text-[1.1rem] text-gray-700 font-semibold max-w-[700px] mx-auto leading-relaxed px-2 md:px-0">
+          <p className="text-[0.95rem] md:text-[1.1rem] text-gray-700 font-semibold max-w-[700px] mx-auto leading-relaxed px-2 md:px-0">
             ¿Tienes preguntas o sugerencias? Estamos aquí para ayudarte.
           </p>
         </div>
       </section>
 
-      <section className="py-12 md:py-16 px-4 md:px-8 bg-white relative overflow-hidden">
+      <section className="py-8 sm:py-12 md:py-16 px-3 sm:px-4 md:px-8 bg-white relative overflow-hidden">
         <LettersBg />
         <div className="max-w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 relative z-10">
-          <div className="bg-[#FAF7F0] rounded-[24px] p-6 md:p-8 shadow-[0_4px_20px_rgba(107,33,168,0.08)]">
-            <h2 className="font-['Fredoka_One',cursive] text-[1.5rem] md:text-[1.8rem] text-[#6B21A8] mb-4 md:mb-6">
+          <div className="bg-[#FAF7F0] rounded-[20px] md:rounded-[24px] p-5 sm:p-6 md:p-8 shadow-[0_4px_20px_rgba(107,33,168,0.08)]">
+            <h2 className="font-['Fredoka_One',cursive] text-[1.3rem] sm:text-[1.5rem] md:text-[1.8rem] text-[#6B21A8] mb-4 md:mb-6 flex flex-wrap">
               Envíanos un mensaje
             </h2>
 

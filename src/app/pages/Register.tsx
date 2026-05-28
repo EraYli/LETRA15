@@ -42,7 +42,7 @@ export default function Register() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] flex items-center justify-center px-4 md:px-8 py-8 md:py-12 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] flex items-center justify-center px-3 sm:px-4 md:px-8 py-6 sm:py-8 md:py-12 relative overflow-hidden">
       <DinoLettersBg />
 
       <div className="w-full max-w-md relative z-10">
@@ -107,7 +107,7 @@ export default function Register() {
             </div>
             <button
               type="submit" disabled={loading}
-              className="w-full bg-[#6B21A8] hover:bg-[#7C3AED] disabled:bg-gray-400 text-white font-['Fredoka_One',cursive] text-[1.1rem] py-4 rounded-xl transition-all shadow-[0_4px_15px_rgba(107,33,168,0.3)]"
+              className="w-full bg-[#6B21A8] hover:bg-[#7C3AED] disabled:bg-gray-400 text-white font-['Fredoka_One',cursive] text-[1rem] sm:text-[1.1rem] py-3.5 sm:py-4 rounded-xl transition-all shadow-[0_4px_15px_rgba(107,33,168,0.3)]"
             >
               {loading ? "Creando cuenta..." : "Crear cuenta 🚀"}
             </button>

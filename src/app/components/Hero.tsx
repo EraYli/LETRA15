@@ -85,7 +85,7 @@ export default function Hero() {
 
         {/* Texto */}
         <div className="flex-1 pb-4 md:pb-12 mt-4 md:mt-0">
-          <h1 className="font-['Fredoka_One',cursive] text-[2.5rem] md:text-[clamp(1.8rem,8vw,3.8rem)] leading-[1.1] text-[#3B0764] mb-3 md:mb-4 [text-shadow:2px_3px_0_rgba(107,33,168,0.12)]">
+          <h1 className="font-['Fredoka_One',cursive] text-[2rem] sm:text-[2.5rem] md:text-[clamp(1.8rem,8vw,3.8rem)] leading-[1.1] text-[#3B0764] mb-3 md:mb-4 [text-shadow:2px_3px_0_rgba(107,33,168,0.12)]">
             Aprende jugando<br />
             <em className="text-[#16A34A] not-italic">con las letras</em> 🌟
           </h1>

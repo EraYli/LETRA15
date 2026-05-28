@@ -18,13 +18,13 @@ export default function WhySection() {
   ];
 
   return (
-    <section className="bg-[#FAF7F0] py-12 md:py-20 relative">
-      <h2 className="font-['Fredoka_One',cursive] text-[1.5rem] md:text-[2rem] text-center text-[#3B0764] mb-8 md:mb-12 flex items-center justify-center gap-2 md:gap-2.5 px-4 md:px-8">
+    <section className="bg-[#FAF7F0] py-10 sm:py-12 md:py-20 relative">
+      <h2 className="font-['Fredoka_One',cursive] text-[1.4rem] sm:text-[1.5rem] md:text-[2rem] text-center text-[#3B0764] mb-6 sm:mb-8 md:mb-12 flex flex-wrap items-center justify-center gap-2 md:gap-2.5 px-3 sm:px-4 md:px-8">
         <span className="text-[#16A34A]">🌿</span> ¿Por qué elegir LETRASAURIO? <span className="text-[#16A34A]">🌿</span>
       </h2>
 
-      <div className="max-w-[1100px] mx-auto w-full px-4 md:px-8">
-        <div className="flex flex-col md:grid md:grid-cols-3 gap-4 md:gap-8">
+      <div className="max-w-[1100px] mx-auto w-full px-3 sm:px-4 md:px-8">
+        <div className="flex flex-col md:grid md:grid-cols-3 gap-3 sm:gap-4 md:gap-8">
           {cards.map((card, index) => (
             <div
               key={index}

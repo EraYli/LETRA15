@@ -75,7 +75,7 @@ export default function Games() {
   return (
     <div className="min-h-screen bg-[#FAF7F0]">
       {/* ── Hero Banner ── */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#3B0764] via-[#6B21A8] to-[#7C3AED] py-20 px-6 text-white">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#3B0764] via-[#6B21A8] to-[#7C3AED] py-12 sm:py-20 px-4 sm:px-6 text-white">
         {/* decorative circles */}
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute -top-20 -left-20 w-72 h-72 rounded-full bg-white/5" />
@@ -84,7 +84,7 @@ export default function Games() {
         </div>
 
         <div className="relative max-w-[1100px] mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-10">
+          <div className="flex flex-col md:flex-row items-center gap-8 sm:gap-10">
             <div className="flex-1 text-center md:text-left">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
@@ -94,7 +94,7 @@ export default function Games() {
                 <span className="inline-block bg-[#FACC15] text-[#3B0764] font-extrabold text-[0.8rem] md:text-sm px-3 md:px-4 py-1 rounded-full mb-4 md:mb-5 tracking-wider uppercase">
                   🎮 Zona de Juegos
                 </span>
-                <h1 className="font-['Fredoka_One',cursive] text-[2.2rem] md:text-[clamp(2.4rem,5vw,3.8rem)] leading-tight mb-3 md:mb-4">
+                <h1 className="font-['Fredoka_One',cursive] text-[1.8rem] sm:text-[2.2rem] md:text-[clamp(2.4rem,5vw,3.8rem)] leading-tight mb-3 md:mb-4">
                   ¡Elige tu<br />
                   <span className="text-[#FACC15]">aventura</span> y juega!
                 </h1>
@@ -136,7 +136,7 @@ export default function Games() {
           </div>
 
           {/* quick stats */}
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="mt-8 sm:mt-12 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
             {[
               { number: "3", label: "Módulos de juego" },
               { number: "27", label: "Letras del alfabeto" },
@@ -155,13 +155,13 @@ export default function Games() {
       </section>
 
       {/* ── Game Cards ── */}
-      <section className="py-20 px-6">
+      <section className="py-12 sm:py-20 px-4 sm:px-6">
         <div className="max-w-[1100px] mx-auto">
-          <div className="text-center mb-14">
-            <h2 className="font-['Fredoka_One',cursive] text-[2.2rem] text-[#3B0764] flex items-center justify-center gap-3">
+          <div className="text-center mb-10 sm:mb-14">
+            <h2 className="font-['Fredoka_One',cursive] text-[1.6rem] sm:text-[2.2rem] text-[#3B0764] flex flex-wrap items-center justify-center gap-2 sm:gap-3">
               <span className="text-[#16A34A]">✨</span> Nuestros módulos educativos <span className="text-[#16A34A]">✨</span>
             </h2>
-            <p className="text-gray-600 font-semibold mt-2 text-[1rem]">
+            <p className="text-gray-600 font-semibold mt-2 text-[0.95rem] sm:text-[1rem]">
               Cada módulo está pensado para un aspecto diferente de la lectoescritura
             </p>
           </div>
@@ -249,9 +249,9 @@ export default function Games() {
       </section>
 
       {/* ── Tips Section ── */}
-      <section className="bg-[#3B0764] py-16 px-6">
+      <section className="bg-[#3B0764] py-12 sm:py-16 px-4 sm:px-6">
         <div className="max-w-[1000px] mx-auto">
-          <h2 className="font-['Fredoka_One',cursive] text-[1.8rem] text-white text-center mb-10">
+          <h2 className="font-['Fredoka_One',cursive] text-[1.5rem] sm:text-[1.8rem] text-white text-center mb-8 sm:mb-10 flex flex-wrap justify-center">
             🦕 Consejos para aprender más rápido
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -272,9 +272,9 @@ export default function Games() {
       </section>
 
       {/* ── How to Start ── */}
-      <section className="py-20 px-6 bg-[#FAF7F0]">
+      <section className="py-12 sm:py-20 px-4 sm:px-6 bg-[#FAF7F0]">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="font-['Fredoka_One',cursive] text-[2rem] text-[#3B0764] text-center mb-12 flex items-center justify-center gap-3">
+          <h2 className="font-['Fredoka_One',cursive] text-[1.6rem] sm:text-[2rem] text-[#3B0764] text-center mb-8 sm:mb-12 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
             🦕 ¿Cómo empezar? 🦕
           </h2>
           <div className="relative">
@@ -303,11 +303,11 @@ export default function Games() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-[#6B21A8] to-[#3B0764] py-20 px-6 text-white text-center">
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#6B21A8] to-[#3B0764] py-12 sm:py-20 px-4 sm:px-6 text-white text-center">
         <div className="pointer-events-none absolute bottom-[-2rem] left-[-2rem] text-[12rem] opacity-5">🦕</div>
         <div className="pointer-events-none absolute top-[-1rem] right-[2rem] text-[10rem] opacity-5">🦖</div>
         <div className="relative max-w-[600px] mx-auto">
-          <h2 className="font-['Fredoka_One',cursive] text-[1.8rem] md:text-[2.4rem] mb-3 md:mb-4">
+          <h2 className="font-['Fredoka_One',cursive] text-[1.5rem] sm:text-[1.8rem] md:text-[2.4rem] mb-3 md:mb-4">
             ¡La aventura de las letras te espera!
           </h2>
           <p className="text-[0.95rem] md:text-[1.05rem] font-semibold opacity-90 mb-6 md:mb-8">

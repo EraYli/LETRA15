@@ -48,24 +48,24 @@ export default function FAQ() {
     <div className="min-h-screen bg-white font-['Nunito',sans-serif]">
       <Header />
 
-      <section className="py-12 md:py-20 px-4 md:px-8 bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
+      <section className="py-8 sm:py-12 md:py-20 px-3 sm:px-4 md:px-8 bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
         <HeroBg />
         <div className="max-w-[1100px] mx-auto text-center relative z-10">
-          <h1 className="font-['Fredoka_One',cursive] text-[2.2rem] md:text-[3rem] text-[#3B0764] mb-4 md:mb-6 leading-tight">
+          <h1 className="font-['Fredoka_One',cursive] text-[1.8rem] sm:text-[2.2rem] md:text-[3rem] text-[#3B0764] mb-3 sm:mb-4 md:mb-6 leading-tight">
             Preguntas Frecuentes ❓
           </h1>
-          <p className="text-[1rem] md:text-[1.1rem] text-gray-700 font-semibold max-w-[700px] mx-auto leading-relaxed px-2 md:px-0">
+          <p className="text-[0.95rem] md:text-[1.1rem] text-gray-700 font-semibold max-w-[700px] mx-auto leading-relaxed px-2 md:px-0">
             Encuentra respuestas a las dudas más comunes sobre LETRASAURIO.
           </p>
         </div>
       </section>
 
-      <section className="py-12 md:py-16 px-4 md:px-8 bg-white relative overflow-hidden">
+      <section className="py-8 sm:py-12 md:py-16 px-3 sm:px-4 md:px-8 bg-white relative overflow-hidden">
         <LettersBg />
         <div className="max-w-[900px] mx-auto space-y-8 md:space-y-12 relative z-10">
           {faqs.map((category, categoryIndex) => (
             <div key={categoryIndex}>
-              <h2 className="font-['Fredoka_One',cursive] text-[1.5rem] md:text-[1.8rem] text-[#6B21A8] mb-4 md:mb-6">
+              <h2 className="font-['Fredoka_One',cursive] text-[1.3rem] sm:text-[1.5rem] md:text-[1.8rem] text-[#6B21A8] mb-4 md:mb-6 flex flex-wrap">
                 {category.category}
               </h2>
               <div className="space-y-3 md:space-y-4">
@@ -93,13 +93,13 @@ export default function FAQ() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 px-4 md:px-8 bg-[#FAF7F0]">
+      <section className="py-8 sm:py-12 md:py-16 px-3 sm:px-4 md:px-8 bg-[#FAF7F0]">
         <div className="max-w-[700px] mx-auto text-center">
-          <h2 className="font-['Fredoka_One',cursive] text-[1.8rem] md:text-[2rem] text-[#3B0764] mb-4 leading-tight">¿No encontraste tu respuesta? 🤔</h2>
+          <h2 className="font-['Fredoka_One',cursive] text-[1.4rem] sm:text-[1.8rem] md:text-[2rem] text-[#3B0764] mb-3 sm:mb-4 leading-tight">¿No encontraste tu respuesta? 🤔</h2>
           <p className="text-gray-700 font-semibold mb-6 md:mb-8 leading-relaxed text-[0.95rem] md:text-[1rem] px-2 md:px-0">
             Nuestro equipo está listo para ayudarte. Envíanos tu pregunta y te responderemos lo antes posible.
           </p>
-          <a href="/contacto" className="inline-block bg-[#6B21A8] hover:bg-[#7C3AED] text-white font-['Fredoka_One',cursive] text-[1rem] md:text-[1.1rem] px-6 py-3 md:px-8 md:py-4 rounded-[40px] shadow-[0_6px_20px_rgba(107,33,168,0.35)] transition-all no-underline w-full sm:w-auto">
+          <a href="/contacto" className="inline-block bg-[#6B21A8] hover:bg-[#7C3AED] text-white font-['Fredoka_One',cursive] text-[0.9rem] sm:text-[1rem] md:text-[1.1rem] px-6 py-3 md:px-8 md:py-4 rounded-[40px] shadow-[0_6px_20px_rgba(107,33,168,0.35)] transition-all no-underline w-full sm:w-auto">
             Contáctanos 📧
           </a>
         </div>

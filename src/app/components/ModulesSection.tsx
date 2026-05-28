@@ -30,7 +30,7 @@ export default function ModulesSection() {
   ];
 
   return (
-    <section className="py-12 md:py-20 px-4 md:px-8 bg-white relative overflow-hidden" id="modulos">
+    <section className="py-10 sm:py-12 md:py-20 px-3 sm:px-4 md:px-8 bg-white relative overflow-hidden" id="modulos">
 
       {/* Decoración fondo */}
       <span className="absolute top-4 left-4 text-[4rem] md:text-[7rem] opacity-25 rotate-[-15deg] select-none pointer-events-none">🦕</span>
@@ -59,7 +59,7 @@ export default function ModulesSection() {
       <span className="absolute bottom-[25%] right-[42%] text-[2.5rem] opacity-15 rotate-[-12deg] select-none pointer-events-none">🦕</span>
 
       <div className="max-w-[1100px] mx-auto relative z-10">
-        <h2 className="font-['Fredoka_One',cursive] text-[1.5rem] md:text-[2rem] text-center text-[#3B0764] mb-8 md:mb-12">
+        <h2 className="font-['Fredoka_One',cursive] text-[1.4rem] sm:text-[1.5rem] md:text-[2rem] text-center text-[#3B0764] mb-6 sm:mb-8 md:mb-12">
           ✨ Nuestros módulos educativos ✨
         </h2>
 
@@ -108,17 +108,18 @@ export default function ModulesSection() {
 
 
         {/* Franja próximamente premium */}
-        <div className="mt-10 flex items-center justify-center gap-4 bg-yellow-50 border border-yellow-200 rounded-2xl py-5 px-8">
-          <span className="text-2xl">👑</span>
-          <div>
-            <p className="font-['Fredoka_One',cursive] text-yellow-700 text-[1.1rem] leading-tight">
+        {/* Franja próximamente premium */}
+        <div className="mt-8 sm:mt-10 flex flex-wrap items-center justify-center gap-3 sm:gap-4 bg-yellow-50 border border-yellow-200 rounded-2xl py-4 sm:py-5 px-4 sm:px-8 text-center sm:text-left">
+          <span className="text-2xl hidden sm:inline-block">👑</span>
+          <div className="w-full sm:w-auto">
+            <p className="font-['Fredoka_One',cursive] text-yellow-700 text-[1rem] sm:text-[1.1rem] leading-tight">
               Más módulos increíbles en camino
             </p>
-            <p className="text-gray-500 text-[0.82rem] mt-0.5">
+            <p className="text-gray-500 text-[0.8rem] sm:text-[0.82rem] mt-0.5">
               Estamos preparando nuevas actividades y sorpresas divertidas.
             </p>
           </div>
-          <span className="ml-auto bg-yellow-400 text-gray-900 font-['Fredoka_One',cursive] text-[0.75rem] px-4 py-1.5 rounded-full whitespace-nowrap">
+          <span className="sm:ml-auto bg-yellow-400 text-gray-900 font-['Fredoka_One',cursive] text-[0.75rem] px-4 py-1.5 rounded-full whitespace-nowrap mt-2 sm:mt-0">
             🚀 Próximamente
           </span>
         </div>

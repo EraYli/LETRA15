@@ -55,10 +55,10 @@ export default function Products() {
     <div className="min-h-screen bg-white font-['Nunito',sans-serif]">
       <Header />
 
-      <section className="py-12 md:py-16 px-4 md:px-8 bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
+      <section className="py-8 sm:py-12 md:py-16 px-3 sm:px-4 md:px-8 bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
         <HeroBg />
         <div className="max-w-[1100px] mx-auto text-center relative z-10">
-          <h1 className="font-['Fredoka_One',cursive] text-[1.8rem] md:text-[3rem] text-[#3B0764] mb-3 md:mb-6 leading-tight">
+          <h1 className="font-['Fredoka_One',cursive] text-[1.8rem] sm:text-[2.2rem] md:text-[3rem] text-[#3B0764] mb-3 sm:mb-4 md:mb-6 leading-tight">
             Productos y Servicios ✨
           </h1>
           <p className="text-[0.95rem] md:text-[1.1rem] text-gray-700 font-semibold max-w-[700px] mx-auto leading-relaxed px-2 md:px-0">
@@ -67,7 +67,7 @@ export default function Products() {
         </div>
       </section>
 
-      <section className="py-10 md:py-12 px-4 md:px-8 bg-white relative overflow-hidden">
+      <section className="py-8 sm:py-10 md:py-12 px-3 sm:px-4 md:px-8 bg-white relative overflow-hidden">
         <LettersBg />
         <div className="max-w-[900px] mx-auto space-y-6 md:space-y-8 relative z-10">
           {modules.map((module, index) => (
@@ -124,9 +124,9 @@ export default function Products() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 px-4 md:px-8 bg-[#FAF7F0]">
+      <section className="py-8 sm:py-12 md:py-16 px-3 sm:px-4 md:px-8 bg-[#FAF7F0]">
         <div className="max-w-[900px] mx-auto text-center">
-          <h2 className="font-['Fredoka_One',cursive] text-[1.6rem] md:text-[2.2rem] text-[#3B0764] mb-3 md:mb-6 leading-tight">¿Listo para comenzar la aventura? 🚀</h2>
+          <h2 className="font-['Fredoka_One',cursive] text-[1.6rem] sm:text-[1.8rem] md:text-[2.2rem] text-[#3B0764] mb-3 sm:mb-4 md:mb-6 leading-tight">¿Listo para comenzar la aventura? 🚀</h2>
           <p className="text-gray-700 font-semibold mb-6 md:mb-8 text-[0.9rem] md:text-[1.05rem] leading-relaxed">
             Registra a tu hijo en LETRASAURIO y observa cómo el aprendizaje se convierte en su actividad favorita.
           </p>
