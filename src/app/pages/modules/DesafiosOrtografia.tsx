@@ -667,9 +667,8 @@ export default function DesafiosOrtografia() {
                   ← Niveles
                 </button>
               )}
-              <Link to="/dashboard/nino" className="flex items-center justify-center bg-white border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.9rem] w-8 h-8 md:w-auto md:h-auto md:px-4 md:py-1.5 rounded-full">
-                <span className="inline md:hidden mt-[-2px]">🏠</span>
-                <span className="hidden md:inline">Inicio</span>
+              <Link to="/dashboard/nino" className="flex items-center justify-center bg-white border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.75rem] md:text-[0.9rem] px-3 py-1 md:px-4 md:py-1.5 rounded-full">
+                Inicio
               </Link>
             </div>
           </div>
