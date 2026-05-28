@@ -261,8 +261,8 @@ export default function JuegoLetras() {
             <div className="bg-[#FACC15] px-1.5 sm:px-3 md:px-6 py-0.5 sm:py-1 md:py-2 rounded-full flex items-center gap-0.5 sm:gap-1">
               <span className="font-['Fredoka_One',cursive] text-[0.7rem] sm:text-[0.85rem] md:text-[1.2rem] text-[#3B0764]">⭐ {score} pts</span>
             </div>
-            <Link to="/dashboard/nino" className="flex items-center justify-center bg-white border sm:border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.65rem] sm:text-[0.75rem] md:text-[0.9rem] px-1.5 sm:px-3 py-0.5 sm:py-1 md:px-4 md:py-1.5 rounded-full whitespace-nowrap">
-              ← Inicio
+            <Link to="/dashboard/nino" className="flex items-center justify-center bg-white border sm:border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.65rem] sm:text-[0.75rem] md:text-[0.9rem] px-2 sm:px-3 py-0.5 sm:py-1 md:px-4 md:py-1.5 rounded-full whitespace-nowrap">
+              Inicio
             </Link>
           </div>
         </div>
