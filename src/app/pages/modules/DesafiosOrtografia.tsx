@@ -649,25 +649,25 @@ export default function DesafiosOrtografia() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#c7f2a4] via-[#bae6fd] to-[#e9d5ff] relative overflow-hidden">
       <DinoLettersBg />
-      <header className="bg-white shadow-[0_2px_12px_rgba(107,33,168,0.10)] px-2 sm:px-4 md:px-8 py-3 md:py-4 relative z-10">
-        <div className="max-w-[1200px] mx-auto flex flex-wrap items-center justify-center sm:justify-between gap-y-2 gap-x-2 md:gap-3">
-          <Link to="/dashboard/nino" className="flex items-center gap-1 md:gap-2 no-underline shrink-0">
-            <span className="text-[1.3rem] md:text-[2rem]">🦕</span>
-            <span className="font-['Fredoka_One',cursive] text-[1.1rem] md:text-[1.5rem] text-[#6B21A8] tracking-tight md:tracking-normal">
+      <header className="bg-white shadow-[0_2px_12px_rgba(107,33,168,0.10)] px-1.5 sm:px-4 md:px-8 py-2 md:py-4 relative z-10">
+        <div className="max-w-[1200px] mx-auto flex items-center justify-between gap-1 md:gap-3">
+          <Link to="/dashboard/nino" className="flex items-center gap-0.5 sm:gap-1 md:gap-2 no-underline shrink-0">
+            <span className="text-[1.1rem] sm:text-[1.3rem] md:text-[2rem]">🦕</span>
+            <span className="font-['Fredoka_One',cursive] text-[0.85rem] sm:text-[1.1rem] md:text-[1.5rem] text-[#6B21A8] tracking-tighter sm:tracking-tight md:tracking-normal">
               LETRA<span className="text-[#16A34A]">SAURIO</span>
             </span>
           </Link>
-          <div className="flex flex-wrap items-center justify-center gap-2 md:gap-4 shrink-0">
-            <div className="bg-[#FACC15] px-3 md:px-6 py-1 md:py-2 rounded-full flex items-center gap-1">
-              <span className="font-['Fredoka_One',cursive] text-[0.85rem] md:text-[1.2rem] text-[#3B0764]">⭐ {score} pts</span>
+          <div className="flex items-center justify-end gap-1 sm:gap-2 md:gap-4 shrink-0">
+            <div className="bg-[#FACC15] px-1.5 sm:px-3 md:px-6 py-0.5 sm:py-1 md:py-2 rounded-full flex items-center gap-0.5 sm:gap-1">
+              <span className="font-['Fredoka_One',cursive] text-[0.7rem] sm:text-[0.85rem] md:text-[1.2rem] text-[#3B0764]">⭐ {score} pts</span>
             </div>
-            <div className="flex items-center gap-2 md:gap-3">
+            <div className="flex items-center gap-1 sm:gap-2 md:gap-3">
               {vista !== "menu" && (
-                <button onClick={() => setVista("menu")} className="flex items-center justify-center bg-white border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors text-[0.75rem] md:text-[0.9rem] px-3 py-1 md:px-4 md:py-1.5 rounded-full">
+                <button onClick={() => setVista("menu")} className="flex items-center justify-center bg-white border sm:border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors text-[0.65rem] sm:text-[0.75rem] md:text-[0.9rem] px-1.5 sm:px-3 py-0.5 sm:py-1 md:px-4 md:py-1.5 rounded-full whitespace-nowrap">
                   ← Niveles
                 </button>
               )}
-              <Link to="/dashboard/nino" className="flex items-center justify-center bg-white border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.75rem] md:text-[0.9rem] px-3 py-1 md:px-4 md:py-1.5 rounded-full">
+              <Link to="/dashboard/nino" className="flex items-center justify-center bg-white border sm:border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.65rem] sm:text-[0.75rem] md:text-[0.9rem] px-1.5 sm:px-3 py-0.5 sm:py-1 md:px-4 md:py-1.5 rounded-full whitespace-nowrap">
                 Inicio
               </Link>
             </div>
