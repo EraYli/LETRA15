@@ -180,7 +180,7 @@ export default function PanelProgreso() {
               to={isTutorView ? "/dashboard/tutor" : "/dashboard/nino"}
               className="flex items-center justify-center bg-white border sm:border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.65rem] sm:text-[0.75rem] md:text-[0.9rem] px-1.5 sm:px-3 py-0.5 sm:py-1 md:px-4 md:py-1.5 rounded-full whitespace-nowrap"
             >
-              ← Volver
+              ← Inicio
             </Link>
           </div>
         </div>

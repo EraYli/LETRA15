@@ -115,7 +115,7 @@ export default function JuegoLetras() {
     if (isAudioPlaying) return;
 
     setIsAudioPlaying(true);
-    
+
     if (selectedLetter?.letter !== letra.letter) {
       // Ocultar tarjeta actual si existe para dar paso a la nueva
       setSelectedLetter(null);
@@ -131,7 +131,7 @@ export default function JuegoLetras() {
       // Si ya es la letra actual, solo repetimos el sonido
       await hablar(letra.letter);
     }
-    
+
     setIsAudioPlaying(false);
   };
 
@@ -262,7 +262,7 @@ export default function JuegoLetras() {
               <span className="font-['Fredoka_One',cursive] text-[0.7rem] sm:text-[0.85rem] md:text-[1.2rem] text-[#3B0764]">⭐ {score} pts</span>
             </div>
             <Link to="/dashboard/nino" className="flex items-center justify-center bg-white border sm:border-2 border-[#6B21A8] text-[#6B21A8] font-bold hover:bg-[#6B21A8] hover:text-white transition-colors no-underline text-[0.65rem] sm:text-[0.75rem] md:text-[0.9rem] px-1.5 sm:px-3 py-0.5 sm:py-1 md:px-4 md:py-1.5 rounded-full whitespace-nowrap">
-              ← Volver
+              ← Inicio
             </Link>
           </div>
         </div>
